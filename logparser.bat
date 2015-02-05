@@ -3,12 +3,11 @@ setlocal enabledelayedexpansion
 cls
 
 title Monstercat FM Twitch IRC Log Parser
-echo.
-echo        __  ___                 __                       __     ________  ___
-echo       /  \/  /___  ____  _____/ /____  ______________ _/ /_   / ____/  \/  /
-echo      / /\_/ / __ \/ __ \/ ___/ __/ _ \/ ___/ ___/ __ `/ __/  / /_  / /\_/ / 
-echo     / /  / / /_/ / / / (__  ) /_/  __/ /  / /__/ /_/ / /_   / __/ / /  / /  
-echo    /_/  /_/\____/_/ /_/____/\__/\___/_/   \___/\__,_/\__/  /_/   /_/  /_/ 
+echo        __  ___                 __                       __      ________  ___
+echo       /  \/  /___  ____  _____/ /____  ______________ _/ /_    / ____/  \/  /
+echo      / /\_/ / __ \/ __ \/ ___/ __/ _ \/ ___/ ___/ __ `/ __/   / /_  / /\_/ / 
+echo     / /  / / /_/ / / / (__  ) /_/  __/ /  / /__/ /_/ / /_    / __/ / /  / /  
+echo    /_/  /_/\____/_/ /_/____/\__/\___/_/   \___/\__,_/\__/   /_/   /_/  /_/ 
 echo.
 echo Created by thinkaliker                                  [http://thinkaliker.com]
 echo Source available on GitHub         [http://github.com/thinkaliker/MCFMIRCParser]
@@ -66,7 +65,6 @@ GOTO :delay
 :delay
 set /a delay=10
 set /p delay="Default delay is 10 seconds. Configured delay (optional): "
-
 
 :begin
 echo --------------------------------------------------------------------------------
