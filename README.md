@@ -20,13 +20,13 @@ OR
 ###Running
 - Run the batch file - you can either open the batch file directly or you can run it from the command line. It doesn't matter.
 - It will prompt you for your username, which should be the channel name you connected to in your IRC client. This is how we will get the logs.
-- It will prompt you for the location of where you want the text file which contains the output of the formatted song name and artist.
+- It will prompt you for the location of where you want the text file which contains the output of the formatted song name and artist. This is the file you will be putting into OBS/whatever.
 - It will ask you which IRC client you are using (press `p` for Pidgin, press `h` for HexChat).
-- It will check for new "songs" aka messages from the Monstercat bot every 20 seconds (or however many seconds you provided) and update the text file when it changes.
+- It will prompt you for the delay. The default is 10 seconds - you can input something else, but keep in mind that each check requires copying a file. It will check for new "songs" aka messages from the Monstercat bot every 10 seconds (or however many seconds you provided).
 - Add the text file to your OBS/whatever scene and you're good to go.
+- You may need to type `!songs` in Twitch chat or your IRC window to cause a change to show up otherwise the currently playing song will not show up.
 - To exit, press `Ctrl+C` or close the command prompt window. The last played song will be kept in the text file.
 
 ##Bugs/TODO:
 - Copies the entire log file - it can't be too big, obviously
 - I would support mIRC but I don't have it because you have to buy it
-- Only show the current song playing once - add checks to see if it's the same
