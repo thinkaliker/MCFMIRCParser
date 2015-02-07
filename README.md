@@ -1,6 +1,8 @@
 #Monstercat Twitch IRC log parser for Pidgin/HexChat
 This Windows batch script takes [Pidgin](http://www.pidgin.im/) or [HexChat](http://hexchat.github.io/) IRC client chat logs in .txt form, parses them for [Monstercat](http://twitch.tv/monstercat) FM's Twitch music streaming bot, and formats them for use in [Open Broadcast Software](http://obsproject.org) or any other streaming program that uses a text file to update the current song/artist.
 
+Don't have Pidgin or HexChat? Try [MCFMIRCParser](http://github.com/thinkaliker/mcfmircparser).
+
 ![what it looks like](http://i.imgur.com/d5CBfSn.png)
 
 ##Features
@@ -34,5 +36,6 @@ OR
 
 ##Bugs/TODO
 - Using another drive such as D:\ may cause issues with the text file - YMMV
+- Different output styles selection
 - Copies the entire log file - it can't be too big, obviously
 - I would support mIRC but I don't have it because you have to buy it
